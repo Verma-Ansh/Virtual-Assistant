@@ -12,6 +12,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-        title: 'Jia', debugShowCheckedModeBanner: false, home: HomePage());
+        title: 'Jarvis', debugShowCheckedModeBanner: false, home: HomePage());
   }
 }
