@@ -13,7 +13,7 @@ class HomePage extends StatefulWidget {
 
 class HomePageState extends State<HomePage> {
   final OpenAI _openAI = OpenAI.instance.build(
-      token: "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",
+      token: "create ur OpenAI API key(on OpenAI playground), copy and paste it here.",
       baseOption: HttpSetup(receiveTimeout: Duration(seconds: 5)),
       enableLog: true);
 
